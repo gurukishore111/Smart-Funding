@@ -10,6 +10,12 @@ You can start editing the page by modifying `contracts/Contract.sol`.
 
 To add functionality to your contracts, you can use the `@thirdweb-dev/contracts` package which provides base contracts and extensions to inherit. The package is already installed with this project. Head to our [Contracts Extensions Docs](https://portal.thirdweb.com/contractkit) to learn more.
 
+## Contract address
+
+```curl
+https://thirdweb.com/goerli/0x63d22e635DE8D33d49354F11b029A0e5d5bbcF56
+```
+
 ## Building the project
 
 After any changes to the contract, run:
