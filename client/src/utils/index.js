@@ -20,3 +20,7 @@ export const checkIfImage = (url, callback) => {
   img.onload = () => callback(true);
   img.onerror = () => callback(false);
 };
+
+export const capitalize = (word) => {
+  return word[0].toUpperCase() + word.substring(1);
+};
