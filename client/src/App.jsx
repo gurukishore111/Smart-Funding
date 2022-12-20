@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-import { Home } from './pages';
+import { CampaignDetails, CreateCampaign, Home, Profile } from './pages';
 import { Navbar, Sidebar } from './components';
 
 export default function App() {
@@ -12,6 +12,9 @@ export default function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/create-campaign" element={<CreateCampaign />} />
+          <Route path="/campaign-details/:id" element={<CampaignDetails />} />
         </Routes>
       </div>
     </div>
