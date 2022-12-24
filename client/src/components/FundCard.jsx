@@ -55,7 +55,7 @@ const FundCard = ({
           </div>
           <div className="flex flex-col">
             <h4 className="font-poppins font-semibold text-[14px] text-[#b2b3bd] leading-[22px]">
-              {daysLeft(deadline)}
+              {daysLeft(deadline) > 0 ? daysLeft(deadline) : 0}
             </h4>
             <p className="mt-[3px] font-poppins font-normal text-[12px] leading-[18px] text-[#808191] sm:max-w-[120px] truncate">
               Days Left

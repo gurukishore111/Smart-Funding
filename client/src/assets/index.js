@@ -13,6 +13,7 @@ import money from './money.svg';
 import loader from './loader.svg';
 import thirdweb from './thirdweb.png';
 import avatar from './avatar.svg';
+import github from './github.svg';
 
 export {
   tagType,
@@ -30,4 +31,5 @@ export {
   loader,
   thirdweb,
   avatar,
+  github,
 };

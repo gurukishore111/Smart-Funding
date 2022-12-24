@@ -4,7 +4,7 @@ import { useStateContext } from '../context';
 
 function Home() {
   const [isLoading, setIsLoading] = useState(false);
-  const [campaigns, setCampaigns] = useState(false);
+  const [campaign, setCampaign] = useState(false);
 
   const { address, contract, connect, getCampaign } = useStateContext();
 
@@ -13,7 +13,7 @@ function Home() {
     if (contract) {
       const data = await getCampaign();
       console.log({ data });
-      setCampaigns(data);
+      setCampaign(data);
       setIsLoading(false);
     }
   };
@@ -25,7 +25,7 @@ function Home() {
     <DisplayCampaigns
       title="All Campaigns"
       isLoading={isLoading}
-      campaigns={campaigns}
+      campaigns={campaign}
     />
   );
 }
