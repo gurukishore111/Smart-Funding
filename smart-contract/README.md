@@ -13,7 +13,7 @@ To add functionality to your contracts, you can use the `@thirdweb-dev/contracts
 ## Contract address
 
 ```curl
-https://thirdweb.com/goerli/0x63d22e635DE8D33d49354F11b029A0e5d5bbcF56
+https://thirdweb.com/goerli/0x757FFF7caAbb0e00241FC9a423F7dEc706d855C7/
 ```
 
 ## Building the project
