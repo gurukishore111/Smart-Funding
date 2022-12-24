@@ -13,7 +13,7 @@ const DisplayCampaigns = ({ title, isLoading, campaigns }) => {
   return (
     <div>
       <h1 className="font-poppins font-semibold text-[18px] text-white text-left">
-        {title} ({campaigns.length})
+        {title} {campaigns.length ? `(${campaigns.length})` : ''}
       </h1>
 
       <div className="flex flex-wrap mt-[20px] gap-[26px]">
