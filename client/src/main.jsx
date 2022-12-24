@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import App from './App';
 import { ChainId, ThirdwebProvider } from '@thirdweb-dev/react';
 import { BrowserRouter as Router } from 'react-router-dom';
+import { StateContextProvider } from './context';
 import './index.css';
 
 // This is the chainId your dApp will work on.
@@ -14,7 +15,9 @@ root.render(
   <React.StrictMode>
     <ThirdwebProvider desiredChainId={activeChainId}>
       <Router>
-        <App />
+        <StateContextProvider>
+          <App />
+        </StateContextProvider>
       </Router>
     </ThirdwebProvider>
   </React.StrictMode>

@@ -4,12 +4,14 @@ import { CustomButton } from './';
 import { avatar, logo, menu, search } from '../assets';
 import { navlinks } from '../constants';
 import { capitalize } from '../utils';
+import { useStateContext } from '../context';
 
 const Navbar = () => {
   const navigate = useNavigate();
   const [isActive, setIsActive] = useState('dashboard');
   const [toggleDrawer, setToggleDrawer] = useState(false);
-  const address = '0x330615E6f....2EF1De8D2dE';
+  const { connect, address } = useStateContext();
+
   return (
     <div className="flex md:flex-row flex-col-reverse justify-between mb-[35px] gap-6">
       <div className="lg:flex-1 flex flex-row max-w-[458px] py-2 pl-4 pr-2 h-[52px] bg-[#1c1c24] rounded-[100px]">
@@ -37,6 +39,7 @@ const Navbar = () => {
             if (address) navigate('create-campaign');
             else {
               // connect to wallet
+              connect();
             }
           }}
         />
@@ -114,6 +117,7 @@ const Navbar = () => {
                 if (address) navigate('create-campaign');
                 else {
                   // connect to wallet
+                  connect();
                 }
               }}
             />
