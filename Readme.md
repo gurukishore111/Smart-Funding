@@ -29,7 +29,7 @@ Smart funding is a Web3 Blockchain Crowdfunding Platform where users can list ca
 
 <img width="1440" alt="Screenshot 2022-12-24 at 3 33 55 PM" src="https://user-images.githubusercontent.com/52570524/209431838-27021311-43c5-4f09-8d5b-d365d0823c8f.png">
 
-<img width="1439" alt="Screenshot 2022-12-24 at 3 00 01 PM" src="https://user-images.githubusercontent.com/52570524/209431935-0b10cbc0-166b-4a42-a99d-2f19c55e61d6.png">
+<img width="1433" alt="Screenshot 2022-12-24 at 3 00 01 PM" src="https://user-images.githubusercontent.com/52570524/209432219-51e2b352-c8fc-4911-95f9-10629f35d599.png">
 
 ### Profile page
 
