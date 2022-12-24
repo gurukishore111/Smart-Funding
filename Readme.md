@@ -21,7 +21,7 @@ Smart funding is a Web3 Blockchain Crowdfunding Platform where users can list ca
 
 ### List of campaigns (Home page)
 
-<img width="1437" alt="Screenshot 2022-12-24 at 3 33 36 PM" src="https://user-images.githubusercontent.com/52570524/209431767-dd53c030-3150-4b4d-a24e-a34bf460e4f4.png">
+<img width="1439" alt="Screenshot 2022-12-24 at 6 48 48 PM" src="https://user-images.githubusercontent.com/52570524/209437939-902edcdb-73f8-448c-b035-837061dfb8cf.png">
 
 ### Campaign details
 
@@ -33,4 +33,4 @@ Smart funding is a Web3 Blockchain Crowdfunding Platform where users can list ca
 
 ### Profile page
 
-<img width="1437" alt="Screenshot 2022-12-24 at 3 57 00 PM" src="https://user-images.githubusercontent.com/52570524/209431929-889c0f21-72bf-4201-883a-5d9211942e4d.png">
+<img width="1440" alt="Screenshot 2022-12-24 at 6 49 46 PM" src="https://user-images.githubusercontent.com/52570524/209437951-9a1cb9bc-79e6-4ffe-ad6c-ab0720ada20b.png">
