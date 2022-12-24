@@ -1,6 +1,6 @@
 # Smart funding 💰
 
-Smart funding is a Web3 Blockchain Crowdfunding Platform where users can list campaigns with a target amount and a deadline using their web3 wallet and also fund the campaigns with ethers
+Smart funding is a Web3 Blockchain Crowdfunding Platform where users can list campaigns with a target amount and a deadline using their web3 wallet and also fund the campaigns with ETH
 
 ## Folder structure
 
