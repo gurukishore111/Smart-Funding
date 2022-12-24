@@ -11,10 +11,15 @@ function Home() {
   const fetchGetCampaign = async () => {
     setIsLoading(true);
     if (contract) {
-      const data = await getCampaign();
-      console.log({ data });
-      setCampaign(data);
-      setIsLoading(false);
+      try {
+        const data = await getCampaign();
+        console.log({ data });
+        setCampaign(data);
+        setIsLoading(false);
+      } catch (error) {
+        setIsLoading(false);
+      }
+ 
     }
   };
   useEffect(() => {

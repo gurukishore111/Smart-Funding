@@ -15,7 +15,7 @@ const CampaignDetails = () => {
   const [amount, setAmount] = useState('');
   const [donators, setDonators] = useState([]);
 
-  const remainingDays = daysLeft(state.deadline);
+  const remainingDays = daysLeft(state?.deadline);
 
   const fetchDonators = async () => {
     const data = await getDonations(state.pId);
@@ -70,7 +70,7 @@ const CampaignDetails = () => {
         </div>
 
         <div className="flex md:w-[150px] w-full flex-wrap justify-between gap-[30px]">
-          <Box title="Days Left" value={remainingDays} />
+          <Box title="Days Left" value={remainingDays > 0 ? remainingDays : 0} />
           <Box
             title={`Raised of ${state.target}`}
             value={state.amountCollected}
@@ -178,6 +178,7 @@ const CampaignDetails = () => {
               <CustomButton
                 btnType="button"
                 title="Fund Campaign"
+                disabled={daysLeft(state?.deadline) <= 0 }
                 styles="w-full bg-[#8c6dfd] p-3"
                 handleClick={handleDonate}
               />
